@@ -14,9 +14,9 @@ const Page = () => {
       
               <div className='hidden md:block pt-4 font-bold text-lg '>
                           <ul className='outline-none flex gap-5 pr-10'>
-                                 <li><Link href={""}>Home</Link></li>
-                                 <li><Link href={""}>About</Link></li>
-                                 <li><Link href={""}>Menu</Link></li>
+                                 <li><Link href={"/"}>Home</Link></li>
+                                 <li><Link href={"/About"}>About</Link></li>
+                                 <li><Link href={"/Menu"}>Menu</Link></li>
                                  <li><Link href={""}>Contact us</Link></li>
                                 <li><Link className='px-3 py-2 font-bold border-2 rounded-3xl border-yellow-500' href={""}>BOOK A TABLE</Link></li>
                           </ul>
