@@ -8,7 +8,7 @@ const Page = () => {
 
             <div className="flex justify-between items-center">
     
-                 <div className=" font-bold text-2xl font-serif pt-4 pl-10">
+                 <div className=" font-bold text-2xl font-serif pt-4 pl-6">
                     <h2>RESTAURANTLY</h2>
                </div>
       
@@ -18,7 +18,7 @@ const Page = () => {
                                  <li><Link href={""}>About</Link></li>
                                  <li><Link href={""}>Menu</Link></li>
                                  <li><Link href={""}>Contact us</Link></li>
-                               <div>  <li><Link className='px-3 py-2 font-bold border-2 rounded-3xl border-yellow-500' href={""}>BOOK A TABLE</Link></li></div>
+                                <li><Link className='px-3 py-2 font-bold border-2 rounded-3xl border-yellow-500' href={""}>BOOK A TABLE</Link></li>
                           </ul>
                      </div>
                           <div className="block md:hidden  ">
