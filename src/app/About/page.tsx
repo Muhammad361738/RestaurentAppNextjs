@@ -6,7 +6,8 @@ import ttt from "../Assests/ttt.jpg"
 const Page = () => {
     return (
         <div className='bg-black  bg-opacity-80 h-screen max-w-screen-sm pb-10'>
-            
+                         <h2 className='text-center font-bold text-2xl md:text-4xl text-amber-600 pt-24'>Check Our Testy Menu</h2>
+
                 <div className='flex flex-wrap  items-center justify-center md:justify-between  h-screen w-screen pb-10 '>
                      <div className=' mt-5  w-64 h-auto  lg:w-96 m-5 md:w-64 lg:m-10  md:m-10 pb-10'>
                         <h2 className='text-2xl  font-bold text-white pt-16'>We deliver Delicious & Healthy food</h2>
