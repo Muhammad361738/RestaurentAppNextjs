@@ -17,8 +17,8 @@ const Page = () => {
                                  <li><Link href={"/"}>Home</Link></li>
                                  <li><Link href={"/About"}>About</Link></li>
                                  <li><Link href={"/Menu"}>Menu</Link></li>
-                                 <li><Link href={""}>Contact us</Link></li>
-                                <li><Link className='px-3 py-2 font-bold border-2 rounded-3xl border-yellow-500' href={""}>BOOK A TABLE</Link></li>
+                                 <li><Link href={"/Contact"}>Contact us</Link></li>
+                                <li><Link className='px-3 py-2 font-bold border-2 rounded-3xl border-yellow-500' href={"/Table"}>BOOK A TABLE</Link></li>
                           </ul>
                      </div>
                           <div className="block md:hidden  ">
