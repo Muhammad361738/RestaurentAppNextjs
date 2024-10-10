@@ -7,8 +7,8 @@ import f4 from "../Assests/f4.jpg"
 
 const Page = () => {
     return (
-        <div className='bg-black opacity-90'>
-            <div className='main dev p-10 '>
+        <div className='bg-black opacity-90 flex flex-wrap justify-center md:justify-between relative top-[110px] sm:top-[80px] md:top-0'>
+            <div className='p-10 '>
                 <h3 className='text-white text-xl font-serif '>RESTAURENLLY</h3>
                 <div className='text-white pt-5'>
                 <p>A 108 ADAM Street  </p>
@@ -34,8 +34,32 @@ const Page = () => {
                         <Image className='h-10 w-10 rounded-full  bg-white' src={f4} alt = ""></Image>
                     </div>
                 </div>
-               
             </div>
+
+            {/* second coloumn */}
+            <div className='p-10'>
+              <h3 className='text-white text-xl font-serif '>Useful Links</h3>
+                <div className='text-white pt-5'>
+                <p className='hover:text-amber-600'>Home </p>
+                <p className='pt-3 hover:text-amber-600'>About us</p>
+                <p className='pt-3 hover:text-amber-600'>Services</p>
+                <p className='pt-3 hover:text-amber-600'>Trems of services</p>
+                <p className='pt-3 hover:text-amber-600'>Privecy policy</p>
+                </div>
+             </div>
+             {/* third coloumn  */}
+             <div className='p-10'>
+              <h3 className='text-white text-xl font-serif '>Our Services</h3>
+                <div className='text-white pt-5'>
+                <p className='hover:text-amber-600'>Web Design</p>
+                <p className='pt-3 hover:text-amber-600'>Web Development</p>
+                <p className='pt-3 hover:text-amber-600'>Product Management</p>
+                <p className='pt-3 hover:text-amber-600'>Marketing</p>
+                <p className='pt-3 hover:text-amber-600'>Graphic Design</p>
+                </div>
+             </div>
+             
+
         </div>
     );
 }
