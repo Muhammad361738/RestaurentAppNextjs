@@ -32,7 +32,7 @@ const ContactUsForm: React.FC = () => {
   return (
     <div className='bg-slate-900 bg-opacity-95 h-screen  '>
              <h2 className='text-center font-bold text-2xl md:text-4xl text-amber-600 pt-24'>Contact Us</h2>
-            <div className='md:flex md:justify-between   md:p-3 '>
+            <div className='md:flex items-center md:justify-between   md:p-3 '>
            <div className=' '>
                <div className='flex justify-center md:justify-start gap-1 pl-3 pt-1'>
                 <Image className='rounded-full w-10 h-10 text-white' src={loc} alt=''></Image>

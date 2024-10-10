@@ -5,6 +5,7 @@ import Table from "./Table/page"
 import OnlineFood from "./OnlineFood/page"
 import HomeSection from "./HomeSection/page"
 import Contact from "./Contact/page"
+import Footer from "./Footer/page"
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
                 <Table/>
                 <OnlineFood/>
                 <Contact/>
+                <Footer />
             </div> 
          
   );
