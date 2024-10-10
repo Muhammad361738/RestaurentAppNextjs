@@ -7,7 +7,7 @@ import f4 from "../Assests/f4.jpg"
 
 const Page = () => {
     return (
-        <div className='bg-black opacity-90 flex flex-wrap justify-center md:justify-between relative top-[110px] sm:top-[80px] md:top-0'>
+        <div className='bg-black opacity-90 flex flex-wrap justify-center relative top-[110px] sm:top-[80px] md:top-0'>
             <div className='p-10 '>
                 <h3 className='text-white text-xl font-serif '>RESTAURENLLY</h3>
                 <div className='text-white pt-5'>
@@ -58,6 +58,16 @@ const Page = () => {
                 <p className='pt-3 hover:text-amber-600'>Graphic Design</p>
                 </div>
              </div>
+             <div className='p-10  '>
+              <h3 className='text-white text-xl font-serif  '>Our Newsletter</h3>
+                <div className='text-white pt-5'>
+                <p className=''>Lorem ipsum dolor sit amet consectetur.</p>
+                <p className=''>Lorem, ipsum dolor.</p>
+                <div className='outline   border-2xl rounded-3xl mt-4 flex justify-end '><button className='outline-none bg-amber-500 text-xl font-bold rounded-3xl w-x p-3  pb-3' >Subscribe</button></div>
+               
+                </div>
+             </div>
+            
              
 
         </div>
