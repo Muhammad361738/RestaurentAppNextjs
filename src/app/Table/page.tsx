@@ -29,11 +29,12 @@ const ReservationForm: React.FC = () => {
   };
 
   return (
+    
     <div className='bg-black h-screen bg-opacity-95 relative '>
           <h2 className="text-4xl font-bold pt-20 text-amber-600 mb-6 text-center">Table Reservation</h2>
 
     <div className="outline m-5 sm:m-10  mx-4xl p-3 flex justify-center   text-white rounded-lg shadow-lg">
-      {/* <h2 className="text-2xl font-bold mt-20 mb-6 text-center">Table Reservation</h2> */}
+    
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Grid Layout - Responsive from medium to large screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

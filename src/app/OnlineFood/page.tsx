@@ -27,8 +27,11 @@ const FoodRequestForm: React.FC = () => {
   };
 
   return (
-    <div className=" mx-auto  p-3 pt-24 bg-black bg-opacity-85 text-white rounded-lg shadow-lg relative top-44 md:top-0">
-      <h2 className="text-2xl font-bold mb-6 text-center">Online Food Request</h2>
+    <div className='bg-slate-800 h-screen pt-20'>
+    <h2 className="text-4xl font-bold text-amber-500 mb-6 text-center flex justify-center">Online Food Request</h2>
+
+    <div className="outline m-5 sm:m-10 p-3  text-white rounded-lg flex justify-center shadow-lg relative  md:top-0">
+      {/* <h2 className="text-2xl font-bold mb-6 text-center">Online Food Request</h2> */}
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Grid Layout - Responsive from medium to large screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
@@ -39,7 +42,7 @@ const FoodRequestForm: React.FC = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -49,7 +52,7 @@ const FoodRequestForm: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -59,7 +62,7 @@ const FoodRequestForm: React.FC = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               required
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -69,7 +72,7 @@ const FoodRequestForm: React.FC = () => {
               value={foodItem}
               onChange={(e) => setFoodItem(e.target.value)}
               required
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -80,7 +83,7 @@ const FoodRequestForm: React.FC = () => {
               onChange={(e) => setQuantity(Number(e.target.value))}
               min="1"
               required
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>
@@ -100,15 +103,19 @@ const FoodRequestForm: React.FC = () => {
         </div>
 
         {/* Submit button */}
+        <div className='flex justify-center'>
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition duration-300"
+          className="w-64 bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition duration-300"
         >
           Place Order
         </button>
+        </div>
       </form>
       {confirmationMessage && <p className="mt-4 text-green-500">{confirmationMessage}</p>}
     </div>
+
+   </div>
   );
 };
 
