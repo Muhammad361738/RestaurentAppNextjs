@@ -17,9 +17,9 @@ import manu10 from "../Assests/manu10.jpg"
 
 const Page = () => {
     return (
-        <div className='bg-slate-800'>
+        <div className='bg-slate-800 '>
              <h2 className='text-center font-bold text-2xl md:text-4xl text-amber-600 pt-24'>Check Our Testy Menu</h2>
-            <div className='lg:flex  items-center text-center gap-3 pt-3 pl-5 flex-wrap pb-10'>
+            <div className='lg:flex justify-center items-center text-center gap-3 pt-3 pl-5 flex-wrap pb-10'>
                 {/* card1 */}
                 <div className='flex justify-center gap-1 pt-3 pl-5'>
                 <Image className='rounded-full w-20 h-20 text-white' src={manu10} alt=''></Image>

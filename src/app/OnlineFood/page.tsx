@@ -27,7 +27,7 @@ const FoodRequestForm: React.FC = () => {
   };
 
   return (
-    <div className=" mx-auto  p-3 pt-24 bg-black bg-opacity-85 text-white rounded-lg shadow-lg">
+    <div className=" mx-auto  p-3 pt-24 bg-black bg-opacity-85 text-white rounded-lg shadow-lg relative top-44 md:top-0">
       <h2 className="text-2xl font-bold mb-6 text-center">Online Food Request</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Grid Layout - Responsive from medium to large screens */}

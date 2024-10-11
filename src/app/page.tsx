@@ -14,7 +14,7 @@ export default function Home() {
     <div  > 
                 <Navbar/>
                 <HomeSection/>
-                {/* <About/> */}
+                <About/>
                 <Manu/>
                 <Table/>
                 <OnlineFood/>

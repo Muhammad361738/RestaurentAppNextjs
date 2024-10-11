@@ -30,29 +30,29 @@ const ContactUsForm: React.FC = () => {
   };
 
   return (
-    <div className='bg-slate-900 bg-opacity-95 h-screen  '>
+    <div className='bg-slate-900 bg-opacity-95 h-screen relative'>
              <h2 className='text-center font-bold text-2xl md:text-4xl text-amber-600 pt-24'>Contact Us</h2>
-            <div className='md:flex items-center md:justify-between   md:p-3 '>
+            <div className='md:flex items-center justify-center gap-10 lg:gap-20  mt-10 p-3 '>
            <div className=' '>
-               <div className='flex justify-center md:justify-start gap-1 pl-3 pt-1'>
+               <div className='flex justify-center md:justify-start gap-1 pl-3 pt-3 md:pt-6 '>
                 <Image className='rounded-full w-10 h-10 text-white' src={loc} alt=''></Image>
                 <div className='text-white'> <p className=' font-bold font-serif'>Location</p>
                 <p>A 108 Adam Street , New York Ny 535046.</p></div>
                 </div>
                
-                <div className='flex justify-center  md:justify-start gap-1 pl-3 pt-1'>
+                <div className='flex justify-center  md:justify-start gap-1 pl-3 pt-3 md:pt-6'>
                 <Image className='rounded-full w-10 h-10 text-white' src={hou} alt=''></Image>
                 <div className='text-white'> <p className=' font-bold font-serif'>Open House</p>
                 <p>Monday To Saturday 11:00 AM-2300PM ... </p></div>
                 </div>
                  
-                <div className='flex   justify-center  md:justify-start gap-1 pl-3 pt-1'>
+                <div className='flex   justify-center  md:justify-start gap-1 pl-3 pt-3 md:pt-6'>
                 <Image className='rounded-full w-10 h-10 text-white' src={gmail} alt=''></Image>
                 <div className='text-white'> <p className=' font-bold font-serif'>Email</p>
                 <p>example@gmail.com  Or Info@gmail.com</p></div>
                 </div>
 
-                <div className='flex justify-center  md:justify-start gap-1 pl-3 pt-1'>
+                <div className='flex justify-center  md:justify-start gap-1 pl-3 pt-3 md:pt-6'>
                 <Image className='rounded-full w-10 h-10 text-white' src={pho} alt=''></Image>
                 <div className='text-white'> <p className=' font-bold font-serif'>Call</p>
                 <p>012345 Whatsapp  9876543 Imo 1472583</p></div>
@@ -60,10 +60,10 @@ const ContactUsForm: React.FC = () => {
 
               </div> 
             {/* logos  */}
-            <div className='bg-emerald-900 p-3 rounded-lg'>
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <div className='bg-slate-950 p-3  md:max-w-lg flex justify-center mt-5  items-center  rounded-lg'>
+            <form onSubmit={handleSubmit} className="space-y-4 ">
         {/* Grid Layout - Responsive from medium to large screens */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
           <div className='flex justify-center md:block mt-16 md:mt-0'>
             <label className="mt-2 md:block text-sm font-bold text-white ">Name:</label>
             <input
@@ -71,7 +71,7 @@ const ContactUsForm: React.FC = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-56 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-42 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div className='flex justify-center md:block'>
@@ -81,7 +81,7 @@ const ContactUsForm: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-56 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-48 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>

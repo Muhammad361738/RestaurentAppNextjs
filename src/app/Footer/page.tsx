@@ -7,7 +7,7 @@ import f4 from "../Assests/f4.jpg"
 
 const Page = () => {
     return (
-        <div className='bg-black opacity-90 flex flex-wrap justify-center relative top-[110px] sm:top-[80px] md:top-0'>
+        <div className='bg-black opacity-90 flex flex-wrap justify-center relative top-96 md:top-0'>
             <div className='p-10 '>
                 <h3 className='text-white text-xl font-serif '>RESTAURENLLY</h3>
                 <div className='text-white pt-5'>
