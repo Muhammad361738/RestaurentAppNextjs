@@ -28,7 +28,7 @@ const FoodRequestForm: React.FC = () => {
 
   return (
     <div className='bg-slate-800 h-screen pt-10'>
-    <h2 className="text-4xl font-bold text-amber-500 mb-6 text-center flex justify-center">Online Food Request</h2>
+    <h2 className="text-4xl font-bold text-amber-500 mt-16 mb-6 text-center flex justify-center">Online Food Request</h2>
 
     <div className="outline sm:m-10 p-3  text-white rounded-lg flex justify-center shadow-lg ">
       {/* <h2 className="text-2xl font-bold mb-6 text-center">Online Food Request</h2> */}
