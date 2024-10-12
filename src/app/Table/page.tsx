@@ -30,7 +30,7 @@ const ReservationForm: React.FC = () => {
 
   return (
     
-    <div className='bg-black h-screen bg-opacity-95 relative '>
+    <div className='bg-black h-screen bg-opacity-95 '>
           <h2 className="text-4xl font-bold pt-20 text-amber-600 mb-6 text-center">Table Reservation</h2>
 
     <div className="outline m-5 sm:m-10  mx-4xl p-3 flex justify-center   text-white rounded-lg shadow-lg">
@@ -46,7 +46,7 @@ const ReservationForm: React.FC = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -56,7 +56,7 @@ const ReservationForm: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -66,7 +66,7 @@ const ReservationForm: React.FC = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           {/* Date and Time in the same row on lg, stacked below Phone */}
@@ -77,7 +77,7 @@ const ReservationForm: React.FC = () => {
               value={date}
               onChange={(e) => setDate(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -87,7 +87,7 @@ const ReservationForm: React.FC = () => {
               value={time}
               onChange={(e) => setTime(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -98,7 +98,7 @@ const ReservationForm: React.FC = () => {
               onChange={(e) => setPeople(Number(e.target.value))}
               min="1"
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>
@@ -111,7 +111,7 @@ const ReservationForm: React.FC = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows={4}
-              className="mt-1 p-2 block w-64 md:w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 md:w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
               placeholder="Any special requests or details?"
             />
           </div>
@@ -134,3 +134,5 @@ const ReservationForm: React.FC = () => {
 };
 
 export default ReservationForm;
+
+

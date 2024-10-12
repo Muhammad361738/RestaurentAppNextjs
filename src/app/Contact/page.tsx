@@ -30,7 +30,7 @@ const ContactUsForm: React.FC = () => {
   };
 
   return (
-    <div className='bg-black bg-opacity-95 h-screen relative'>
+    <div className='bg-black bg-opacity-95 h-screen '>
              <h2 className='text-center font-bold text-2xl md:text-4xl text-amber-600 pt-24'>Contact Us</h2>
             <div className='md:flex items-center justify-center gap-10 lg:gap-20  mt-10 p-3 '>
            <div className=' '>

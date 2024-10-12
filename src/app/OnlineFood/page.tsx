@@ -27,10 +27,10 @@ const FoodRequestForm: React.FC = () => {
   };
 
   return (
-    <div className='bg-slate-800 h-screen pt-20'>
+    <div className='bg-slate-800 h-screen pt-10'>
     <h2 className="text-4xl font-bold text-amber-500 mb-6 text-center flex justify-center">Online Food Request</h2>
 
-    <div className="outline m-5 sm:m-10 p-3  text-white rounded-lg flex justify-center shadow-lg relative  md:top-0">
+    <div className="outline sm:m-10 p-3  text-white rounded-lg flex justify-center shadow-lg ">
       {/* <h2 className="text-2xl font-bold mb-6 text-center">Online Food Request</h2> */}
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Grid Layout - Responsive from medium to large screens */}
@@ -42,7 +42,7 @@ const FoodRequestForm: React.FC = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -52,7 +52,7 @@ const FoodRequestForm: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -62,7 +62,7 @@ const FoodRequestForm: React.FC = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -72,7 +72,7 @@ const FoodRequestForm: React.FC = () => {
               value={foodItem}
               onChange={(e) => setFoodItem(e.target.value)}
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div>
@@ -83,7 +83,7 @@ const FoodRequestForm: React.FC = () => {
               onChange={(e) => setQuantity(Number(e.target.value))}
               min="1"
               required
-              className="mt-1 p-2 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-0 p-1 block w-64 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>
