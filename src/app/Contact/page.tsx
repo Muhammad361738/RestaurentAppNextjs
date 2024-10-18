@@ -1,7 +1,6 @@
 "use client"; // Ensures this component is rendered on the client side
 
 import { useState, FormEvent } from 'react';
-import Link from 'next/link';
 import loc from "../Assests/loc.jpg"
 import hou from "../Assests/hou.jpg"
 import gmail from "../Assests/gamil.jpg"
