@@ -64,36 +64,36 @@ const ContactUsForm: React.FC = () => {
         {/* Grid Layout - Responsive from medium to large screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
           <div className='flex justify-center md:block mt-16 md:mt-0'>
-            <label className="mt-2 md:block text-sm font-bold text-white ">Name:</label>
+            <label className="mt-2 md:block text-sm font-bold text-white ">Name :</label>
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-42 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-48 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
-          <div className='flex justify-center md:block'>
-            <label className="mt-2 md:block text-sm font-bold text-white">Email:</label>
+          <div className='flex justify-center items-center md:block'>
+            <label className="mt-2 md:block text-sm font-bold text-white">Email  : </label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-48 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-[198px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>
 
         {/* Subject Field */}
-        <div className='flex justify-center md:block'>
+        <div className='flex justify-center items-center md:block'>
           <label className="block text-sm font-bold text-white">Subject:</label>
           <input
             type="text"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
             required
-            className="mt-1 p-2 block w-56 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+            className="mt-1 p-2 block w-48 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
           />
         </div>
 
@@ -105,7 +105,7 @@ const ContactUsForm: React.FC = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows={4}
-              className="mt-1 p-2 block w-56 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-48 border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
               placeholder="Your message here..."
               required
             />
