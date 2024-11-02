@@ -59,7 +59,7 @@ const ContactUsForm: React.FC = () => {
 
               </div> 
             {/* logos  */}
-            <div className='bg-yellow-400 p-3  md:max-w-lg flex justify-center mt-5  items-center  rounded-lg'>
+            <div className='bg-yellow-400 p-3  flex  justify-center mt-5  items-center  rounded-lg'>
             <form onSubmit={handleSubmit} className="space-y-4 ">
         {/* Grid Layout - Responsive from medium to large screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
