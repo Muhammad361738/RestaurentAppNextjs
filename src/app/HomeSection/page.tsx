@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Page = () => {
     return (
         <div>
-             <div className="relative w-screen h-screen "> 
+             <div className="relative w-auto h-auto md:w-screen md:h-screen "> 
                     <Image
                         src={home}
                         alt="About Image"
