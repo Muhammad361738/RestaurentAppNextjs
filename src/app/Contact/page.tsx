@@ -70,7 +70,7 @@ const ContactUsForm: React.FC = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="mt-1 p-2 block w-[180px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-[160px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
           <div className='flex justify-center items-center md:block'>
@@ -80,7 +80,7 @@ const ContactUsForm: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="mt-1 p-2 block w-[180px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-[160px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
             />
           </div>
         </div>
@@ -93,7 +93,7 @@ const ContactUsForm: React.FC = () => {
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
             required
-            className="mt-1 p-2 block w-[180px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+            className="mt-1 p-2 block w-[160px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
           />
         </div>
 
@@ -105,7 +105,7 @@ const ContactUsForm: React.FC = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows={4}
-              className="mt-1 p-2 block w-[180px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
+              className="mt-1 p-2 block w-[160px] border bg-neutral-600 opacity-95 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-black"
               placeholder="Your message here..."
               required
             />
